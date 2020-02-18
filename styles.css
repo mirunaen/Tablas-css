@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: verdana;
+    font-size: 10px;
+    color: #666666;
+    background-color: #333333;
+}
+html , body {
+    font-family: verdana;
+    font-size: 10px;
+    columns: #666666;
+    background-color: #333333;
+    height: 100%;
+
+}
+#second {
+    width: 200px;
+    height: 120%;
+    padding: 5px;
+    background-color: #ffff55;
+    border: 1px #555555;
+    float: left;
+}
+#main{
+    margin-left: 210px;
+    padding: 5px;
+    background-color: #ffffbb;
+    border: 1px solid #555555;
+    height: 120%;
+}
+#content{
+    margin: 0 auto;
+    padding: 0px;
+    width: 750px;
+    height: 120%;
+}
+#header{
+    height: 60px;
+    padding-top: 15px;
+    color: black;
+    background-image: url("./img/nature.jpg");
+}
+#second ul {
+    list-style: none;
+    margin-left: 1em;
+    width: 130px;
+    border:1px solid #7c7c7c;
+}
+#second h3{
+    color: #b4045f;
+}
+#second ul li a{
+    padding: .2em 0 .2em 1.5em;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    background: #f4f4f4;
+}
+#second ul li a:hover, ul li a:active{
+    background: #58FA58;
+}
+#main img{
+    padding: 10px;
+    float: right;
+    width:50%;
+}
+#main h3{
+    background:white ;
+    color: #b4045f;
+}
+#footer{
+    clear: both;
+    background-color: #338000;
+    height: 30px;
+    color: white;
+    padding: 10px 0px 0px 10px;
+}
+.enlaces{
+    float: left;
+}
+.enlaces a{
+    text-decoration: none;
+    color:white;
+}
+.enlaces a:hover{
+    background-color: #336699;
+    color:white;
+}
+.creador{
+    float: right;
+    margin-right: 13px;
+}
